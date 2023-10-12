@@ -2,7 +2,7 @@
 # 1. add secrets for your github actions, e.g. API_INSIGHTS_OAUTH2_CLIENT_SECRET in {your_github_repo}/settings/secrets/actions
 # 2. add below workflow in your github repo.
 
-name: API Insights
+name: API Insights Validate
 
 on:
   push:
