@@ -42,4 +42,4 @@ jobs:
           version: ${{ env.API_INSIGHTS_CLI_VERSION }}
       - name: API Insights - Analyze API Spec
         run: |
-          api-insights-cli analyze ${{ env.API_SPEC }} --fail-below-score 80
+          api-insights-cli analyze ${{ env.API_SPEC }} --analyzer contract --fail-below-score 80
