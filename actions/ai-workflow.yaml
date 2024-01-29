@@ -1,6 +1,7 @@
 # This is a sample workflow to help working with API specs based on API Insights, main steps:
 # 1. add secrets for your github actions, e.g. API_INSIGHTS_OAUTH2_CLIENT_SECRET in {your_github_repo}/settings/secrets/actions
 # 2. add below workflow in your github repo.
+# 3. 
 
 name: API Insights
 
